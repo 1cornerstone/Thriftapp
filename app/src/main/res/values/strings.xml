@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">THRIFT</string>
+    <string name="adminlogin">Enter your Login Password</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="motto"> ....Perfect Record App</string>
+
+
+    <array name="menuOptions">
+
+        <item>MEMBER</item>
+        <item>WALLET</item>
+        <item>SETTINGS</item>
+        <item>LOG OUT</item>
+
+    </array>
+
+
+    <string name="addmember">ADD MEMBER</string>
+    <string name="viewuser">VIEW MEMBER</string>
+    <string name="getloan">GET LOAN</string>
+    <string name="viewloan">LOAN RECORD</string>
+
+    <string name="balance"> BALANCE IN WALLET:\n <b>#2,0000,000</b> </string>
+    <string name="totalbalance">TOTAL BALANCE COLLECTED:\n <b> #3,0000,000 </b></string>
+    <string name="totalloan"> LOAN:\n <b>#1,0000,000</b></string>
+
+    <string name="chngep">Enter Old Password.</string>
+    <string name="newpass">New Password</string>
+    <string name="confirmpass">Confirm New Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_newmember">newmember</string>
+
+    <string name="male">Male</string>
+    <string name="female">FeMale</string>
+
+    <string name="question">DO YOU BELONG TO ANY OTHER COOPEATIVE SOCIETY YES/NO?</string>
+    <string name="question1">HOW MUCH DO YOU INTEND TO SAVE MONTHLY (IF ADMITTED)?*</string>
+    <string name="question2">WHY DO YOU WANT TO BE A MEMBER OF THE EDUCATION CO-OPERATIVE SOCIETY?*</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="regstep1title"><i>REGISTER</i></string>
+    <string name="choseimg">Take Picture</string>
+
+    <string name="restartthirft">Restart Thrift.</string>
+
+    <string name="wit">WITNESS</string>
+    <string name="wit_name">Witness Name</string>
+    <string name="wit_regid">Witness ID</string>
+    <string name="title_activity_getloan">getloan</string>
+
+    <string name="loantitle">GET LOAN</string>
+    <string name="loanamount">Loan Amount</string>
+    <string name="loanwit">Witness</string>
+    <string name="loan">LOAN</string>
+    <string name="title_activity_loanrecord">loanrecord</string>
+
+    <string name="date">Date</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="loading">Saving Data...</string>
+    <string name="userid">Name:</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="pay">PAY </string>
+    <string name="stake">ASSESST TO STAKE</string>
+    <string name="readto">Duration for loans is two (2) years and if not fully paid after this time, the difference is reloan at our prevailing interest rate. The prevailing co-operative interest is 10% which is much lower than that of commercial banks (24%).</string>
+    <string name="validate">Validate</string>
+</resources>

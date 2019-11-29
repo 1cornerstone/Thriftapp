@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.Profile"
+    tools:showIn="@layout/activity_profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/userimg"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/bottommargin"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bottommargin"
+            android:text="amount Paid"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:id="@+id/totalp"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="left"
+           android:layout_marginBottom="23dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="@string/userid"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:layout_margin="10dp"
+               android:id="@+id/p_regid"
+               android:textStyle="italic"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="name"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:id="@+id/p_name"
+               android:layout_margin="10dp"
+               android:textStyle="italic"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="phone"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:layout_margin="10dp"
+               android:textStyle="italic"
+               android:id="@+id/p_phone"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="address"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:layout_margin="10dp"
+               android:id="@+id/p_address"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="amount"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:layout_margin="10dp"
+               android:textStyle="italic"
+               android:id="@+id/p_amount"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/bottommargin"
+               android:text="witness"
+               android:textSize="15dp"
+               android:gravity="left"
+               android:layout_margin="10dp"
+               android:textStyle="italic"
+               android:id="@+id/p_wit"/>
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/colorPrimary"
+               android:layout_margin="@dimen/bottommargin"
+               android:text="@string/pay"
+               android:textColor="@color/white"
+               android:id="@+id/p_pay"
+               android:layout_weight="1"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/colorPrimary"
+               android:layout_margin="@dimen/bottommargin"
+               android:text="ACCOUNT"
+               android:textColor="@color/white"
+               android:id="@+id/history"
+               android:layout_weight="1"
+               />
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

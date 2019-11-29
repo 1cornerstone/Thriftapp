@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.appsettings">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:layout_marginTop="23dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/chngep"
+            android:textSize="15dp"
+            android:layout_marginBottom="@dimen/bottommargin"
+            />
+
+        <com.poovam.pinedittextfield.SquarePinField
+            android:id="@+id/oldpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:inputType="numberPassword"
+            android:layout_gravity="center"
+            android:textSelectHandle="@drawable/text_handle"
+            android:textSize="16sp"
+            android:focusable="true"
+            app:cornerRadius="10dp"
+            app:noOfFields="4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/newpass"
+            android:textSize="15dp"
+            android:layout_margin="@dimen/bottommargin"
+            />
+
+        <com.poovam.pinedittextfield.SquarePinField
+            android:id="@+id/newpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="numberPassword"
+            android:layout_gravity="center"
+            android:textSelectHandle="@drawable/text_handle"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            android:enabled="false"
+            android:visibility="invisible"
+            app:noOfFields="4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/confirmpass"
+            android:textSize="15dp"
+            android:layout_margin="@dimen/bottommargin"
+            />
+        <com.poovam.pinedittextfield.SquarePinField
+            android:id="@+id/confirmpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="numberPassword"
+            android:layout_gravity="center"
+            android:textSelectHandle="@drawable/text_handle"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            android:visibility="invisible"
+            app:noOfFields="4" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/restartthirft"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:id="@+id/delete"
+            android:layout_marginTop="45dp"
+            />
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
